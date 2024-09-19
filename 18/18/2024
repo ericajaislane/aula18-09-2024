@@ -1,3 +1,8 @@
+1 Apresente um algoritimo em C que leia 3 strings
+A. Apresente o tamanho da primeira e da segunda.
+b. Verifique se as duas primeiras são iguais. Se forem, copie o valor da terceira string para segunda. Se não, concatene o valor da priemria e da segunda na terceira. 
+c.Imprima da tela os valores de cada string
+
 #include <stdio.h>
 #include <string.h>
 
