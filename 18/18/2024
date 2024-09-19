@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char s1[100], s2[100], s3[100];
+
+    printf("Digite a primeira string: ");
+    fgets(s1, 99, stdin); 
+    s1[strlen(s1)-1] = "\0";
+    
+    printf("Digite a segunda string: ");
+    fgets(s2, 99, stdin); 
+    s2[strlen(s2)-1] = "\0";
+    
+    printf("Digite a terceira string: ");
+    scanf("%[^\n]", s3);
+    printf("%s888", s3);
+    
+    return 0;
+}
